@@ -386,7 +386,6 @@ input[type="search"] {
     z-index: 2;
     background: rgba(0,0,0,0.8);
     padding: 15px;
-    border: 1px solid blue;
     flex-direction: row-reverse;
     align-items: center;
 }
@@ -398,14 +397,11 @@ input[type="search"] {
     bottom: 0;
     left: 0;
     z-index: -2;
-    border: 2px solid white;
 }
 
 .post-content-midia-close {
-    border: 1px solid yellow;
     display: inline-block;
-    float: right;
-    /*display: inline-block;*/
+    align-self: flex-start;
 }
 
 .post-content-midia-close-btn {
@@ -423,15 +419,17 @@ input[type="search"] {
 
 .post-content-midia-galery {
     margin: auto;
-    width: 90%;
-    height: 90%;
-    border: 1px solid red;
+    max-height: 90%;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
 }
 
-.post-content-midia-img {
-    align-self: center;
+.post-content-midia-galery img {
     max-width: 100%;
     max-height: 100%;
+    width: auto;
+    height: auto;
 }
 
 /* ====================== End Post Midia Settings ====================== */
