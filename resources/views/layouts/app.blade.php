@@ -24,12 +24,12 @@
 <body>
     <div class="post-content-midia-container">
         <div class="post-content-midia-close-area"></div>
+        <div class="post-content-midia-close">
+            <button type="button" class="post-content-midia-close-btn">
+                <i class="fa fa-times fa-2x" aria-hidden="true"></i>
+            </button>
+        </div>
         <div class="post-content-midia-galery">
-            <div class="post-content-midia-close">
-                <button type="button" class="post-content-midia-close-btn">
-                    <i class="fa fa-times fa-2x" aria-hidden="true"></i>
-                </button>
-            </div>
             <img class="post-content-midia-img" src="">
         </div>
     </div>
